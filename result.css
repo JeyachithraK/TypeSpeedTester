@@ -1,0 +1,73 @@
+/* Result Page Styling */
+.result {
+    background-color: #e6f3ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .result h2 {
+    color: #004080;
+  }
+  
+  .result p {
+    font-size: 18px;
+    color: #003366;
+    margin: 10px 0;
+  }
+  
+  /* Leaderboard Table */
+  .leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .leaderboard th,
+  .leaderboard td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #cce7ff;
+  }
+  
+  .leaderboard th {
+    background-color: #004080;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .leaderboard tr:nth-child(even) {
+    background-color: #f2faff;
+  }
+  
+  .leaderboard tr:hover {
+    background-color: #e1f0ff;
+  }
+  
+  .leaderboard td {
+    color: #003366;
+  }
+  
+  .leaderboard h2 {
+    color: #004080;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Button Styles */
+  #backBtn {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+  }
+  
+  #backBtn:hover {
+    background-color: #003366;
+  }
+  

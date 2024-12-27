@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results - Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Speed Test Results</h1>
+
+    <!-- User Result Section -->
+    <div class="results">
+      <h2>Your Results</h2>
+      <p><strong>Time Taken:</strong> <span id="time"></span> seconds</p>
+      <p><strong>Speed:</strong> <span id="speed"></span> WPM</p>
+      <p><strong>Accuracy:</strong> <span id="accuracy"></span>%</p>
+      <div id="completionMessage"></div>
+    </div>
+
+    <!-- Leaderboard Section -->
+    <div class="leaderboard">
+      <h2>Leaderboard</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>WPM</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard"></tbody>
+      </table>
+    </div>
+
+    <button id="backBtn">Back to Test</button>
+  </div>
+
+  <script src="results.js"></script>
+</body>
+</html>

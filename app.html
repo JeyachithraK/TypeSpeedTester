@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Typing Speed Tester</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Speed Tester</h1>
+    <p id="quote"></p>
+    <textarea id="input" placeholder="Start typing here..." disabled></textarea>
+    <p>Check Progress</p>
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+    <button id="startBtn">Start Test</button>
+    <button id="endBtn" disabled>End Test</button>
+    <button id="correctionsBtn" disabled>See Corrections</button>
+    <div class="results">
+      <p id="completionMessage"></p>
+      <p>Time: <span id="time">0</span> seconds</p>
+      <p>Accuracy: <span id="accuracy">0</span>%</p>
+      <p>Speed: <span id="speed">0</span> WPM</p>
+    </div>
+    <div class="leaderboard">
+      <h2>Leaderboard</h2>
+      <div class="leaderboard">
+       
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>WPM</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
